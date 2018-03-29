@@ -14,15 +14,110 @@
     <title>bootstrap 4 teste</title>
   </head>
   <body>
+      <!--on container class the text is align on the page-->
       <div class="container">
-    
-          Mágica!
       
+          <!--menu criation-->
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #74b9ff">
+              <a class="navbar-brand" href="#">Bootstrap test</a>
+              
+
+              <!--creating a buttom if the width is to low, responsive design-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSite">
+                    
+                  <!-- to align the itens on ul class use ml-auto 
+                    to align to the right 
+                    use mr-auto to align to the left-->
+                  <ul class="navbar-nav mr-auto">
+                      <!--itens on the list-->
+                      <!--every item is a li-->
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Início</a>
+                      </li>
+                      <!--creating a dropdown menu-->
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown"></a>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Power Transmission</a>
+                              <a class="dropdown-item" href="#">Project Bladerunner</a>
+                                <!--create a distact for this item on the menu-->
+                              <div class="dropdown-divider"></div>
+
+                              <a class="dropdown-item" href="#">Color Coder</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Forum</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contatos</a>
+                      </li>
+                      
+                      
+                  </ul>
+                  
+              </div>
+              <!--using serching-->
+              <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
+              </form>
+              
+          </nav>
+          <!--criação de um carousel de imagems-->
+          <div id="carouselSite" class="carousel slide" data-ride="carousel">
+              
+              <div class="carousel-inner">
+                  <!--so a primeira classe de iamgens tem o active num carousel-->
+                  <div class="carousel-item active">
+                      <!--d-block serve pra imagem ocupar todo o espaço que ela se encontra-->
+                      <!--img-fluid imagem responsiva-->
+                      <img class="d-block img-fluid" src="http://via.placeholder.com/1920x700" alt="Primeiro slide">
+                      
+                      <div class="carousel-caption d-none d-lg-block">
+                          
+                          <h4>Primeiro slide</h4>
+                          <p>Conteúdo do primeiro slide</p>
+                      </div>
+                      
+                  </div>
+                  <div class="carousel-item">
+                      <!--d-block serve pra imagem ocupar todo o espaço que ela se encontra-->
+                      <!--img-fluid imagem responsiva-->
+                      <img class="d-block img-fluid" src="http://via.placeholder.com/1920x700" alt="Segundo slide">
+                      
+                      <div class="carousel-caption d-none d-lg-block">
+                          
+                          <h4>Segundo slide</h4>
+                          <p>Conteúdo do segundo slide</p>
+                      </div>
+                      
+                  </div>
+                  <div class="carousel-item">
+                      <!--d-block serve pra imagem ocupar todo o espaço que ela se encontra-->
+                      <!--img-fluid imagem responsiva-->
+                      <img class="d-block img-fluid" src="http://via.placeholder.com/1920x700" alt="Terceiro slide">
+                      
+                      <div class="carousel-caption d-none d-lg-block">
+                          
+                          <h4>Terceiro slide</h4>
+                          <p>Conteúdo do terceiro slide</p>
+                      </div>
+                      
+                  </div>
+                  
+              </div>
+              
+          </div>
       </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script src="/js/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
   </body>
