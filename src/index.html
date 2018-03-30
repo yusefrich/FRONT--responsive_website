@@ -18,8 +18,13 @@
       <div class="container">
       
           <!--menu criation-->
-          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #74b9ff">
-              <a class="navbar-brand" href="#">Bootstrap test</a>
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #079992">
+              
+              <a class="navbar-brand collapse" href="#">
+                  <!--mylogo-->
+                  <img src="assets/color_coder_name.png" class="img-fluid" width="153" height="91" alt="Responsive image">
+                  
+              </a> 
               
 
               <!--creating a buttom if the width is to low, responsive design-->
@@ -40,7 +45,7 @@
                       </li>
                       <!--creating a dropdown menu-->
                       <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown"></a>
+                          <a class="nav-link dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown">Projetos</a>
                           <div class="dropdown-menu">
                               <a class="dropdown-item" href="#">Power Transmission</a>
                               <a class="dropdown-item" href="#">Project Bladerunner</a>
@@ -57,19 +62,18 @@
                           <a class="nav-link" href="#">Contatos</a>
                       </li>
                       
-                      
                   </ul>
+                  <!--using serching-->
+                  <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
+                  </form>
                   
               </div>
-              <!--using serching-->
-              <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-sm btn-outline-secondary" type="submit">Search</button>
-              </form>
               
           </nav>
           <!--criação de um carousel de imagems-->
-          <div id="carouselSite" class="carousel slide" data-ride="carousel">
+          <div id="carouselSite" class="carousel slide my-4" data-ride="carousel">
               
               <div class="carousel-inner">
                   <!--so a primeira classe de iamgens tem o active num carousel-->
@@ -111,6 +115,50 @@
                   </div>
                   
               </div>
+              
+          </div>
+          <!--criação de cards e colunas-->
+          <div class="row">
+              
+              <div class="col-sm-6 col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body text-center">
+                          <h4 class="card-tittle">Título 1</h4>
+                          <p class="card-text">placeholder.</p>
+                          <a href="#" class="card-link">link</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-sm-6 col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body text-center">
+                          <h4 class="card-tittle">Título 2</h4>
+                          <p class="card-text">placeholder.</p>
+                          <a href="#" class="card-link">link</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-4 mb-4">
+                  <div class="card">
+                      <div class="card-body text-center">
+                          <h4 class="card-tittle">Título 3</h4>
+                          <p class="card-text">placeholder.</p>
+                          <a href="#" class="card-link">link</a>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+          <!--jumbotron-->
+          <div class="jumbotron">
+              <!--classe display, da mais destaque aos titulos-->
+              <h1 class="display-3">Placeholde jumbo</h1>
+              <p class="lead">Placeholder text for the element jumbotron.</p>
+              <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#">link</a>
+              </p>
               
           </div>
       </div>
