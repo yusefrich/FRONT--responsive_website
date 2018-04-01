@@ -1,3 +1,9 @@
-this code was made using tutorials for study porpuse
-tutorial used: https://www.youtube.com/watch?v=5BED0R0G3ow&t=114s
-channel used: https://www.youtube.com/channel/UCxsjItE8ek_KG21BClqBo7Q
+
+This code was made using a youtube tutorials for studies purposes
+channel: https://www.youtube.com/channel/UCxsjItE8ek_KG21BClqBo7Q
+
+for more art and infos about my future games and projects please:
+visit my instagram: @yusef_rich
+visit my twitter: @yusef_rick
+
+thank you!

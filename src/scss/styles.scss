@@ -1,5 +1,24 @@
-$bg-color: #dff9fb;
+/*$bg-color: #dff9fb; //background color
 
 body {
     background: $bg-color;
+}*/
+
+//importação das variáveis
+$primary:#E84058;
+$secondary:#fab1a0;
+$body-bg:#ff7675;
+
+.jumbotron {
+    background-color: #fab1a0!important;
 }
+
+.btn-outline-secondary{
+    color: #dfe6e9!important;
+    border-color: #dfe6e9!important;
+}
+
+
+
+//importação do bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
