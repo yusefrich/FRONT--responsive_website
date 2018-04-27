@@ -9,16 +9,21 @@ $primary:#a29bfe;
 $secondary:#A58ECB;
 $body-bg:#f1f2f6;
 
+#whatweare{
+    border-right: 1px solid #F1F2F6;
+    height: 300px;
+}
+
 .jumbotron {
-    background-color: $secondary!important;
+    background-color: $secondary !important;
 }
 
 .btn-outline-secondary{
-    color: #dfe6e9!important;
-    border-color: #dfe6e9!important;
+    color: #dfe6e9 !important;
+    border-color: #dfe6e9 !important;
 }
 .navbar{
-    padding: 5px 5px !important;
+    //padding: 5px 120px !important;
 }
 .container-fluid{
 	padding: 0px 0px !important;

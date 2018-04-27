@@ -3,15 +3,16 @@
 body {
     background: $bg-color;
 }*/
+#whatweare {
+  border-right: 1px solid #F1F2F6;
+  height: 300px; }
+
 .jumbotron {
   background-color: #A58ECB !important; }
 
 .btn-outline-secondary {
   color: #dfe6e9 !important;
   border-color: #dfe6e9 !important; }
-
-.navbar {
-  padding: 5px 5px !important; }
 
 .container-fluid {
   padding: 0px 0px !important; }
