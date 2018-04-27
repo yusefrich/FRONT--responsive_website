@@ -5,19 +5,25 @@ body {
 }*/
 
 //importação das variáveis
-$primary:#6949ce;
-$secondary:#7bed9f;
+$primary:#a29bfe;
+$secondary:#A58ECB;
 $body-bg:#f1f2f6;
 
 .jumbotron {
-    background-color: #7bed9f!important;
+    background-color: $secondary!important;
 }
 
 .btn-outline-secondary{
     color: #dfe6e9!important;
     border-color: #dfe6e9!important;
 }
+.navbar{
+    padding: 5px 5px !important;
+}
+.container-fluid{
+	padding: 0px 0px !important;
 
+}
 
 
 //importação do bootstrap
